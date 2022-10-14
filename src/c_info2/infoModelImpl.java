@@ -188,7 +188,7 @@ public class infoModelImpl implements InfoModel {
 
 			
 			
-			// 5. 삭제
+			// 5. 전송
 			upd = ps.executeUpdate();
 
 		} finally {

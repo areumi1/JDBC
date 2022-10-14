@@ -216,7 +216,7 @@ public class InfoView {
 			
 	void selectAll() {
 		try {
-			ArrayList<InfoVO> data = model.selectAll();  // 칼럼내용들을 담은 배열을 불러와 향상된 for문으로 출력(각 방의내용들 출력0
+			ArrayList<InfoVO> data = model.selectAll();  // 칼럼내용들을 담은 배열을 불러와 향상된 for문으로 출력(각 방의내용들 출력)
 			ta.setText(" ---- 검색결과 ---- \n\n");
 			for(InfoVO vo : data) {		
 				ta.append(vo.toString());
